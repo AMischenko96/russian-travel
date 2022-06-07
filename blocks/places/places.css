@@ -1,0 +1,28 @@
+/* 1280 */
+.places {
+  margin: 0 auto;
+  padding: 0;
+  width: calc(100% - 2*148px);
+  max-width: 984px;
+}
+
+/* 1024 */
+@media screen and (max-width: 1024px) {
+  .places {
+    width: calc(100% - 2*48px);
+  }
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .places {
+    width: calc(100% - 48px);
+  }
+}
+
+/* 480 */
+@media screen and (max-width: 480px) {
+  .places {
+    width: 100%;
+  }
+}
